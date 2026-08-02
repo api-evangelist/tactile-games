@@ -1,8 +1,26 @@
 aid: tactile-games
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tactile-games.png
 name: Tactile Games
-description: 'Tactile Games is a company surfaced as a portfolio company of index-ventures and added to
-  the API Evangelist network as a stub for enrichment. Sector: entertainment. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Tactile Games is a Danish mobile game studio headquartered in Copenhagen,
+  founded in 2014, that builds and publishes casual free-to-play puzzle titles for
+  iOS and Android. Its portfolio includes Lily''s Garden, Penny & Flo, Makeover Match,
+  the Cookie Cats series (Cookie Cats, Cookie Cats Pop, Cookie Cats Blast), and the
+  Simon''s Cat games. Tactile is a portfolio company of Index Ventures. It is a
+  consumer game publisher rather than an API producer: it exposes no public developer
+  API, SDK, or developer portal, so this profile captures the company identity,
+  public web properties, and domain-security posture surfaced by the enrichment
+  pipeline.'
 url: https://raw.githubusercontent.com/api-evangelist/tactile-games/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +30,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Entertainment
+- Games
+- Mobile
+- Gaming
+- Publishing
+- Denmark
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +48,18 @@ maintainers:
 common:
 - type: Website
   url: http://tactilegames.com
+- type: Blog
+  url: https://tactilegames.com/blog/
+- type: Support
+  url: https://tactilegames.com/contact-us/
+- type: TermsOfService
+  url: https://tactilegames.com/legal/tos.html
+- type: PrivacyPolicy
+  url: https://tactilegames.com/legal/privacy.html
+- type: DomainSecurity
+  url: security/tactile-games-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
