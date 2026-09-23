@@ -1,0 +1,25 @@
+# Front Door AI Index — tactile-games — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: tactile-games
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: tactilegames.com
+  final_host: tactilegames.com
+  ownership: own
+  owner: tactile-games
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 1
+  host_score: 1
+  density: 2.02
+  words: 496
+  tiers:
+    agentic: 1
+    core: 0
+    model: 0
+  ambiguous: 0
+  top_terms:
+    RAG: 1
